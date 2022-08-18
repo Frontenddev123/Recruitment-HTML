@@ -63,8 +63,6 @@
 		<script src="assets/js/custom/apps/chat/chat.js"></script>
 		<script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
 		<script src="assets/js/custom/utilities/modals/users-search.js"></script>
-		<script src="assets/js/custom/utilities/modals/create-app.js"></script>
-		<script src="assets/js/tables.js"></script>
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->
         </body>

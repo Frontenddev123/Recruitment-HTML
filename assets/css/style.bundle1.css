@@ -47734,3 +47734,8 @@ html:not([data-theme="dark"]) {
     background-color: var(--kt-body-bg);
     border: 0;
 }
+
+
+.toolbar{
+    background-color: white !important;
+}

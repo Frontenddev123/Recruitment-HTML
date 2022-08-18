@@ -2,7 +2,9 @@
 
 
 include 'header.php';
-include 'content.php';
 
+include 'content.php';
 include 'footer.php';
+
+
 ?>
