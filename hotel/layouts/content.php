@@ -292,51 +292,11 @@
 																	</svg>
 																</span>
 																<!--end::Svg Icon-->
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr089.svg-->
-																<span class="svg-icon svg-icon-3 m-0 toggle-on">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect x="6" y="11" width="12" height="2" rx="1" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
+																
 															</button>
 														</td>
 													</tr>
-													<tr>
-														<td>
-															<a href="../../demo11/dist/apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#SRR-678</a>
-														</td>
-														<td class="text-end">1 hour ago</td>
-														<td class="text-end">
-															<a href="#" class="text-gray-600 text-hover-primary">Robert Fox</a>
-														</td>
-														<td class="text-end">$1,630.00</td>
-														<td class="text-end">
-															<span class="text-gray-800 fw-bolder">$203.90</span>
-														</td>
-														<td class="text-end">
-															<span class="badge py-3 px-4 fs-7 badge-light-warning">Pending</span>
-														</td>
-														<td class="text-end">
-															<button type="button" class="btn btn-sm btn-icon btn-light btn-active-light-primary toggle h-25px w-25px" data-kt-table-widget-4="expand_row">
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr087.svg-->
-																<span class="svg-icon svg-icon-3 m-0 toggle-off">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect opacity="0.5" x="11" y="18" width="12" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
-																		<rect x="6" y="11" width="12" height="2" rx="1" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr089.svg-->
-																<span class="svg-icon svg-icon-3 m-0 toggle-on">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect x="6" y="11" width="12" height="2" rx="1" fill="currentColor" />
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</button>
-														</td>
-													</tr>
+													
 												
 												
 												</tbody>
