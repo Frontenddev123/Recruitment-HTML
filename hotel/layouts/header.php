@@ -153,5 +153,5 @@
 					</div>
 					<!--end::Header-->
 					
-					</div>
+			
 
