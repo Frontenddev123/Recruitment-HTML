@@ -77,7 +77,7 @@
                                                 <td>Waiter</td> 
                                                 <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>
                                                 <td>30</td>
-												<td>  <i class="fas fa-plus fa-2x" data-toggle="modal" data-target="#myModal"></i></td>
+											
 
 												<td><img src="assets/media/icons/hamburg-menu-2-16.png" alt="hamburg-icons"></td>
                                                </tr>
