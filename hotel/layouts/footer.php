@@ -26,12 +26,15 @@
 		<!--end::Container-->
 	            
      </div>
+
+	 
 	<!--end::Footer-->
 
     </div>
 
 </div>
 </div>
+
 
 
       <!--end::Modal - Users Search-->
