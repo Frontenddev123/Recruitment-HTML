@@ -42324,10 +42324,12 @@ code:not([class*="language-"]) {
 .svg-icon {
     line-height: 1;
     color: var(--kt-text-muted);
+    margin-left: 10px ;
 }
 .svg-icon svg {
     height: 1.15rem;
     width: 1.15rem;
+   
 }
 .svg-icon.svg-icon-white {
     color: var(--kt-text-white);
@@ -42387,8 +42389,9 @@ code:not([class*="language-"]) {
     color: var(--kt-text-gray-900);
 }
 .svg-icon.svg-icon-1 svg {
-    height: 1.75rem !important;
-    width: 1.75rem !important;
+    /* height: 1.5rem !important;
+    width: 1.5rem !important;
+    margin-left: 12px !important; */
 }
 .svg-icon.svg-icon-2 svg {
     height: 1.5rem !important;
@@ -47736,6 +47739,13 @@ html:not([data-theme="dark"]) {
 }
 
 
-/* .toolbar{
-    background-color: white !important;
-} */
+.bi-house{
+    margin-left: 10px !important;
+}
+.bi{
+    margin: 40px;
+}
+
+.svg-icon {
+    margin-left: 10px !important;
+}
