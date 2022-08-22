@@ -1,11 +1,11 @@
 <?php
 
-include 'C:\xampp\htdocs\panel\agencyadmin\layouts\header.php';
-include 'C:\xampp\htdocs\panel\hotel\layouts\menu.php';
-include 'C:\xampp\htdocs\panel\agencyadmin\layouts\studentprocess.php';
+include 'C:\xampp\htdocs\Recruitment-HTML\agencyadmin\layouts\header.php';
+include 'C:\xampp\htdocs\Recruitment-HTML\hotel\layouts\menu.php';
+include 'C:\xampp\htdocs\Recruitment-HTML\agencyadmin\layouts\studentprocess.php';
 
 
-include 'C:\xampp\htdocs\panel\hotel\layouts\footer.php';
+include 'C:\xampp\htdocs\Recruitment-HTML\hotel\layouts\footer.php';
 
 
 
