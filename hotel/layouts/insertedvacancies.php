@@ -127,7 +127,7 @@
                               <td>61</td>
                               <td>2011/04/25</td>
                               <td>$320,800</td>  
-                              <td>  <a href="#" class="btn btn-danger btn-sm"><i class="bi bi-person"></i></a></td>
+                              <td>  <i class="bi bi-person fs-2x"></i></td>
                               <td>  <a href="#" class="btn btn-danger btn-sm">Accept</a></td>
                               <td>  <a href="#" class="btn btn-danger btn-sm">Decline</a></td>
                             
@@ -139,7 +139,7 @@
                               <td>63</td>
                               <td>2011/07/25</td>
                               <td>$170,750</td>
-                              <td>  <a href="#" class="btn btn-danger btn-sm"><i class="bi bi-person"></i></a></td>
+                              <td>  <i class="bi bi-person fs-2x"></i></td>
                               <td>  <a href="#" class="btn btn-danger btn-sm">Accept</a></td>
                               <td>  <a href="#" class="btn btn-danger btn-sm">Decline</a></td>
                              </tr>

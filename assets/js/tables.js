@@ -20,7 +20,7 @@ function myFunction() {
       }       
     }
 
-    //Shtohet vetem kjo
+  
     if(indexDisplay == tr.length-1)
     document.getElementById("not-found").innerText = "Not found";
     else document.getElementById("not-found").innerText = "";

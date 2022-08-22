@@ -87,5 +87,9 @@
 		<!--end::Row-->
     </div>
 </div>
-<script src="js/postioninprocess.js"></script>
+
+<script>
+
+
+</script>
 </div>         
