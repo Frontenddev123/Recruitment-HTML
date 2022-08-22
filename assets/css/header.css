@@ -1,5 +1,10 @@
-.svg-icon.svg-icon-1 svg {
-    height: 1.5rem !important;
-    width: 1.5rem !important;
-    margin-left: 12px !important;
+.navbar {
+    width: 100%;
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
 }
+.navbar li {
+    padding: 12px;
+}
+
