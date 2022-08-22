@@ -159,10 +159,13 @@
                                              <!-- Checkbox -->
                                             <div class="form-check d-flex justify-content-center mb-4">
                                               <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-                                              <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                                              <label class="form-check-label" for="form6Example8"> Accept  <span class="text-info">Accept terms of services</span>
+                                                  </label>
                                             </div>
                                            
                                           </div>
+
+                                          
  
          
                                        
