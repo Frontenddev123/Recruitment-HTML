@@ -33,8 +33,8 @@
 										</svg>
 									</span>
 									<!--end::Svg Icon-->
-									<input type="text" id="myInput1" onkeyup="myFunction1()" class="form-control w-150px fs-7 ps-12" placeholder="Search"  />
-									<div id="not-found"></div>
+									<input type="text"  class="form-control w-150px fs-7 ps-12" placeholder="Search"  id="myInput1" onkeyup="myFunction1()" />
+                                    <div id="not-found-1"></div>
 								</div>
 								<!--end::Search-->
 							</div>
@@ -86,11 +86,8 @@
 		</div>
 		<!--end::Row-->
     </div>
-	<script src="./js/postioninprocess.js"></script>
+	
+</div>
 </div>
 
-<script>
-
-
-</script>
-</div>         
+<script type="text/javascript"src="assets/js/postioninprocess.js"></script>

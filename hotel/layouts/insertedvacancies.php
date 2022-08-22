@@ -153,24 +153,10 @@
        </div>
      </div>
   </div>
-  <script src="./js/tables.js"></script>
+  <script type="text/javascript" src="assets/js/tables.js"></script>
 </div>
                 
-</div>
-<!--end::Card body-->
-                              		
-    </div>
-			
-	<!--end::Table Widget 4-->
- </div>
-			<!--end::Col-->
-								
- </div>						
-        <!--end::Row-->						
-							
-       
-  </div>
-</div>			
+		
         
 
            
