@@ -22,15 +22,15 @@
 				</li>
 			</ul>
 			<!--end::Menu-->
-		</div>
+	</div>
 		<!--end::Container-->
 	            
-     </div>
+    
 
 	 
 	<!--end::Footer-->
 
-    </div>
+ </div>
 
 </div>
 </div>
