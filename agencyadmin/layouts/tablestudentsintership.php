@@ -55,8 +55,8 @@
                                <th>Start Date</th>
                                <th>State</th>
                                <th>No.of.jobs</th>     
-				   	    		  <th> <img src="assets/media/icons/check.png" alt="check">
-				   	    		</th>
+				   	    		          <th> <img src="assets/media/icons/check.png" alt="check">
+				   	    		        </th>
                             </tr>
                              </thead>
 
@@ -65,9 +65,9 @@
                                <td>Blu Hotel</td>
                                <td>Waiter</td>
                                <td>04/12/2022</td>
-                               <td>05/12/2022</td> 
                                <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>	
-				    		    <td><img src="assets/media/icons/hamburg-menu-2-16.png" alt="hamburg-icons" data-bs-toggle="modal" data-bs-target="#tablepositionprocess"></td>
+                               <td>30</td>
+				    		              <td><img src="assets/media/icons/hamburg-menu-2-16.png" alt="hamburg-icons" data-bs-toggle="modal" data-bs-target="#tablepositionprocess"></td>
                               </tr>
 				   	    	
                            </tbody>
@@ -145,28 +145,16 @@
                    </div>
                 </div>
               <!-- End Modal Body -->
-
-                              
-
-                                </div>
-                                <!-- End Modal content -->
-                               
-
-                            </div>
-
-                           </div>
-
-
-                                
-                        </div>
-
-            
-            </div>
-       </div>
-    </div>
+              </div>
+        </div>
+  </div>
 </div>
 </div>
-  <script type="text/javascript" src="assets/js/tables.js"></script>
+<script type="text/javascript" src="assets/js/tables.js"></script>
+</div>                             
+
+                    
+
 
                 
 		
