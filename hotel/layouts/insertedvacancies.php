@@ -45,7 +45,7 @@
 					</div>
 					<!--end::Card header-->
 					<!--begin::Card body-->
-				<div class="card-body pt-2">
+				  <div class="card-body pt-2">
 					<div class="table-responsive">
                            <table class="table table-striped gy-7 gs-7"  id="myTable">
                             <thead>
@@ -93,13 +93,38 @@
                <div class="modal-dialog modal-xl modal-dialog-centered">
                    <div class="modal-content">
                        <div class="modal-header">
-                           <h3 class="modal-title">Insert Vacancies</h3>
+                        <div class="container">
+                       <div class="row align-items-center">
+                            <div class="col-md-4">
+                            <h1>ID: A1001</h1>
+                            </div>
+                           
+                             <div class="col-md-4"></div>
+                            
+                            <div class="col-md-4">
+                              	<!--begin::Search-->
+							      	<div class="position-relative my-1">
+					      				<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+					      				<span class="svg-icon svg-icon-2 position-absolute top-50 translate-middle-y ms-4">
+				      					
+					      					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					      						<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
+					      						<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
+					      					</svg>
+					      				</span>
+					      				<!--end::Svg Icon-->
+					      				<input type="text"  class="form-control w-150px fs-7 ps-12" placeholder="Search"  id="myInput1" onkeyup="myFunction1()" />
+                                          <div id="not-found-1"></div>
+                                 
+								    </div>
+								<!--end::Search-->
+                            </div>
+                          </div>                        
 
-                           <!--begin::Close-->
-                           <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
-                               <span class="svg-icon svg-icon-1">X</span>
-                           </div>
-                           <!--end::Close-->
+                         
+                          
+                      
+                       </div>
                        </div>
 
                        <div class="modal-body">
@@ -127,7 +152,8 @@
                               <td>61</td>
                               <td>2011/04/25</td>
                               <td>$320,800</td>  
-                              <td>  <i class="bi bi-person fs-2x"></i></td>
+                              <!-- <td>  <i class="bi bi-person "></i></td> -->
+                              <td><i class="bi bi-person fs-2x"></i></td>
                               <td>  <a href="#" class="btn btn-danger btn-sm">Accept</a></td>
                               <td>  <a href="#" class="btn btn-danger btn-sm">Decline</a></td>
                             

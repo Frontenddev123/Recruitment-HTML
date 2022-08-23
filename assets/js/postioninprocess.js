@@ -1,5 +1,5 @@
 function myFunction1() {
-  debugger;
+
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput1");
   filter = input.value.toUpperCase();

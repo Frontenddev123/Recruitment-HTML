@@ -62,7 +62,9 @@
 							</div>
 							<!--end::Header Logo-->
 							<!--begin::Topbar-->
-						<div class="d-flex align-items-center">
+							<div class="d-flex align-items-center">
+							
+							<div class="d-flex align-items-center">
 						     <ul class="navbar ms-md-auto gap-2 list-unstyled">       	 
                                    <li class="nav-item rounded">
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-4 fa-lg"></i>Home</a>
@@ -76,8 +78,12 @@
 	                      	     <li class="nav-item rounded">
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-star me-4  fa-lg"></i>Review</a>
                                    </li>
+								 
 	                      	  </ul>
 							
+						</div>
+								
+								
 						</div>
 							 
 						
@@ -268,5 +274,9 @@
 							<!--end::Topbar-->
 						</div>
 						<!--end::Container-->
+					</div>
+				</div>
+		  </div>
+	  </div>
 					
 						
