@@ -78,7 +78,9 @@
 	                      	     <li class="nav-item rounded">
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-star me-4  fa-lg"></i>Review</a>
                                    </li>
-								 
+								   <li class="nav-item rounded">
+                                     <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-diagram-3 me-4  fa-lg"></i>Agency</a>
+                                   </li>
 	                      	  </ul>
 							
 						</div>
