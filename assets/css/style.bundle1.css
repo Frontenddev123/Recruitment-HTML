@@ -42393,8 +42393,8 @@ code:not([class*="language-"]) {
     width: 1.75rem!important;
 }
 .svg-icon.svg-icon-2 svg {
-    height: 1.5rem !important;
-    width: 1.5rem !important;
+    /* height: 1.5rem !important;
+    width: 1.5rem !important; */
 }
 .svg-icon.svg-icon-3 svg {
     height: 1.35rem !important;

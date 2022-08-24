@@ -71,7 +71,9 @@
                               <td>305</td>
                               <td>30%</td>
 							  <td>pending</td>
-							  <td> <i class="bi bi-person fs-2x"></i></td>						
+
+							  <td>   <a href="http://localhost/panel/profilestudent.php"><i class="bi bi-person fs-2x"></i></a>
+								</td>						
                              </tr>
 						 
                             </tbody>

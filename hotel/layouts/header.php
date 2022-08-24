@@ -21,7 +21,6 @@
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/style.bundle1.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/header.css" rel="stylesheet" type="text/css" />
-
 		<!--end::Global Stylesheets Bundle-->
 	</head>
 	<!--end::Head-->
@@ -57,7 +56,7 @@
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-4 fa-lg"></i>Home</a>
                                    </li>
 	                      	     <li class="nav-item rounded">
-                                     <a class="nav-link active" aria-current="page" href="http://localhost/Recruitment-HTML/test.php"><i class="bi bi-people me-4  fa-lg"></i>Students in Intership</a>
+                                     <a class="nav-link active" aria-current="page" href="http://localhost/panel/Recruitment-HTML/indexstudent.php"><i class="bi bi-people me-4  fa-lg"></i>Students in Intership</a>
                                    </li>
 	                      	     <li class="nav-item rounded">
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-clock me-4  fa-lg"></i>Students Waiting</a>
@@ -263,8 +262,4 @@
 						</div>
 						<!--end::Container-->
 					</div>
-				</div>
-		  </div>
-	  </div>
-					
-						
+		
