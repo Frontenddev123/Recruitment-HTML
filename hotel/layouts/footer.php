@@ -8,7 +8,7 @@
 			</div>
 			<!--end::Copyright-->
 		
-</div>
+        </div>
 		<!--end::Container-->
 	            
     

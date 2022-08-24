@@ -65,6 +65,25 @@
                     <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Education" name= "education"></div>
                     <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="University" name= "university"></div>
                     <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Branch"  name= "branch" ></div>
+                    <div class="col-md-12 mb-5 ">
+                    <select class="form-select"  class="form-control" data-control="select2" data-placeholder="English"  name= "language" >
+                    <option selected>English </option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="C1">C1</option>
+                    </select>
+                    </div>
+
+                    <div class="col-md-12 mb-5">
+                    <select class="form-select" class="form-control" placeholder="Italion"  name= "language" >
+                    <option selected>Italian </option>
+                     <option value="B1">B1</option>
+                     <option value="B2">B2</option>
+                     <option value="C1">C1</option>
+
+                    </select>
+
+                    </div>
                            
                 </div>
                 
