@@ -56,7 +56,7 @@
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-4 fa-lg"></i>Home</a>
                                    </li>
 	                      	     <li class="nav-item rounded">
-                                     <a class="nav-link active" aria-current="page" href="http://localhost/panel/Recruitment-HTML/indexstudent.php"><i class="bi bi-people me-4  fa-lg"></i>Students in Intership</a>
+                                     <a class="nav-link active" aria-current="page" href="http://localhost/panel/indexstudent.php"><i class="bi bi-people me-4  fa-lg"></i>Students in Intership</a>
                                    </li>
 	                      	     <li class="nav-item rounded">
                                      <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-clock me-4  fa-lg"></i>Students Waiting</a>
