@@ -42389,9 +42389,8 @@ code:not([class*="language-"]) {
     color: var(--kt-text-gray-900);
 }
 .svg-icon.svg-icon-1 svg {
-    /* height: 1.5rem !important;
-    width: 1.5rem !important;
-    margin-left: 12px !important; */
+    height: 1.75rem!important;
+    width: 1.75rem!important;
 }
 .svg-icon.svg-icon-2 svg {
     height: 1.5rem !important;
