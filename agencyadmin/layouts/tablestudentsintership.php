@@ -55,8 +55,8 @@
                                <th>Start Date</th>
                                <th>State</th>
                                <th>No.of.jobs</th>     
-				   	    		          <th> <img src="assets/media/icons/check.png" alt="check">
-				   	    		        </th>
+				   	    		<th> <img src="assets/media/icons/check.png" alt="check"></th>
+				   	    		        
                             </tr>
                              </thead>
 
@@ -67,25 +67,24 @@
                                <td>04/12/2022</td>
                                <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>	
                                <td>30</td>
-				    		              <td><img src="assets/media/icons/hamburg-menu-2-16.png" alt="hamburg-icons" data-bs-toggle="modal" data-bs-target="#tablepositionprocess"></td>
+				    		              <td><img src="assets/media/icons/hamburg-menu-2-16.png" alt="hamburg-icons" data-bs-toggle="modal" data-bs-target="#positionprocess"></td>
                               </tr>
 				   	    	
-                           </tbody>
+                            </tbody>
                            </table>
-	 
-                       </div> 
+	                   </div> 
+                    </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="positionprocess" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-                       <!-- Modal -->
-                        <div class="modal fade" id="tablepositionprocess" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-
-                          <div class="modal-dialog  modal-xl">
+                          <div class="modal-dialog modal-dialog-centered  modal-xl">
                              
                             <!-- Start Modal content -->
                             <div class="modal-content">
 
                                  <div class="modal-header">
 
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h2 class="modal-title" id="exampleModalLabel">Modal title</h2>
                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                  </div>
                                
@@ -143,15 +142,15 @@
                            </div>
                       </div>
                    </div>
+
                 </div>
-              <!-- End Modal Body -->
-              </div>
-        </div>
+          </div>
+     </div>
   </div>
+
+  <script type="text/javascript" src="assets/js/tables.js"></script>                             
 </div>
-</div>
-<script type="text/javascript" src="assets/js/tables.js"></script>
-</div>                             
+
 
                     
 
