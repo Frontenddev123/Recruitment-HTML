@@ -27,16 +27,11 @@
         <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="University" name= "university"></div>
         <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="Branch"  name= "branch" ></div>
         <div class="col-md-6 mb-5"><input type="tel" class="form-control" placeholder="Phone Number"  name= "phoneNumber "></div>
-        <div class= "col-md-6 mb-5"><input class="form-control form-control-lg " type="text"  placeholder="Start project" name="startProject" id="startProject" onfocus="(this.type='date')" />
-        </div>
-        <div class="col-md-12 mt-5 mb-5">
-            <div class="form-check form-switch form-check-custom form-check-solid">
-             <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault" name="active"/>
-             <label class="form-check-label" for="flexSwitchDefault">
-                 Active student
-             </label>
-             </div>
-        </div>
+        <div class= "col-md-6 mb-5"><input class="form-control form-control-lg " type="text"  placeholder="Start project" name="startProject" id="startProject" onfocus="(this.type='date')" /> </div>   
+        <div class="col-md-6 mb-5"><input type="email" class="form-control" name="email" placeholder="Email"></div>
+        <div class="col-md-6 mb-5"><input type="password" class="form-control" name="password" placeholder="Password"></div>
+           
+      
 
         <div class="col-md-6 mb-5 ">
              <select class="form-select"  class="form-control"  aria-label="Select language"  data-placeholder="English"  name= "language" >
@@ -55,6 +50,14 @@
 
               </select>
 
+        </div>
+        <div class="col-md-12 mt-5 mb-5">
+            <div class="form-check form-switch form-check-custom form-check-solid">
+             <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault" name="active"/>
+             <label class="form-check-label" for="flexSwitchDefault">
+                 Active student
+             </label>
+             </div>
         </div>
         <div class="col-md-6 mb-5 mt-5">
             <div class="form-group">

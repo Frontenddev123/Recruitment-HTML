@@ -67,114 +67,21 @@
                               <td>Aida</td>
                               <td>Caushi</td>
                               <td>Waiter</td>
-                              <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>
-                              <td>101</td>  
-                              <td>30</td> 
-                              
-                              <td>  <a href="http://localhost/panel/profilestudent.php"> <i class="bi bi-person fs-2x"></i></a>
-                               </td>						
-						
-                             </tr>
-                             <tr>
-                              <td>Blu Hotel</td>
-                              <td>Aida</td>
-                              <td>Caushi</td>
-                              <td>Banakier</td>
-                              <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>
+                              <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>            
                               <td>101</td>
-                              <td>30</td> 
-                              
+                              <td>30%</td>
+                   
                               <td>  <a href="http://localhost/panel/profilestudent.php"> <i class="bi bi-person fs-2x"></i></a>
-                               </td>						
-						
-                             </tr>
-						 
+                               </td>	
+                               </tr>			           
+                     
                             </tbody>
                         </table>
 	 
                     </div>           
                 </div>
 
-                <div  class="modal fade" tabindex="-1" id="kt_modal_2">
-                    <div class="modal-dialog modal-xl modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title">Insert Vacancies</h1>     
-
-                                     <!--begin::Close-->
-                                <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
-                                    <span class="svg-icon svg-icon-2x">X</span>
-                                </div>
-                                <!--end::Close-->
-                               </div>                         
-
-                                <div class="modal-body">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <img src="assets/media/flags/Flag_of_Albania.png" alt="Flag-Albania">
-                                            </div>
-                                            <div class="col-md-2">
-                                                   <img src="assets/media/flags/flag-Montenegro.png" alt="Flag-Montenegro">
-                                            </div>
-                                             <div class="col-md-2">
-                                                 <img src="assets/media/flags/Flag_of_North_Macedonia.png" alt="Flag-Montenegro">
-                                             </div>
-                                             <div class="col-md-2">
-                                                  <img src="assets/media/flags/Serbia-flag.png" alt="Flag-Serbia">
-                                             </div>
-                                             <div class="col-md-2">
-                                                  <img src="assets/media/flags/Flag_of_North_Macedonia.png" alt="Flag-Montenegro">
-                                             </div>
-                                             <div class="col-md-2">
-                                                   <img src="assets/media/flags/Serbia-flag.png" alt="Flag-Serbia">
-                                            </div>
-           
-                                        </div>
-                                         <div class="row mt-10 mb-10">
-                                                 <div class="col-md-2">
-                                                     <div class="form-group ">
-    	         	                                     <input type="number" name="" class="form-control"
-                                                         placeholder="3">
-                                                              
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-2">
-                                                     <div class="form-group ">
-    	         	                                     <input type="number" name="" class="form-control"
-                                                         placeholder="3">
-                                                              
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-2">
-                                                     <div class="form-group ">
-    	         	                                     <input type="number" name="" class="form-control"
-                                                         placeholder="1">
-                                                              
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-2">
-                                                     <div class="form-group ">
-    	         	                                     <input type="number" name="" class="form-control"
-                                                         placeholder="0">
-                                                              
-                                                     </div>
-                                                 </div>
-                                        </div>
-                                  </div> 
-                            
-                            
-                                
-                                       
-                                 <div class="modal-footer">
-                       
-                                 <button type="button" class="btn btn-primary justify-co">Insert</button>
-                                 </div>
-                            </div>
-                        </div>
-                  </div> 
-            </div> 
-
+              
                            
         </div>
 
