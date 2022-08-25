@@ -81,7 +81,7 @@
                              </div>                    
 
                              <div class="modal-body">
-                               ...
+                               Review
                              </div>                    
 
                              <div class="modal-footer">                    

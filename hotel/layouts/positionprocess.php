@@ -75,6 +75,8 @@
 							  <td>   <a href="http://localhost/panel/profilestudent.php"><i class="bi bi-person fs-2x"></i></a>
 								</td>						
                              </tr>
+						
+							 
 						 
                             </tbody>
                         </table>
@@ -87,9 +89,10 @@
 			<!--end::Col-->
 		</div>
 		<!--end::Row-->
+		
     </div>
-	
-</div>
+
 </div>
 
-<script type="text/javascript"src="assets/js/postioninprocess.js"></script>
+</div>
+

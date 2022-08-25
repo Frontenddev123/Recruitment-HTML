@@ -1,144 +1,110 @@
-
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-12">
-      
-            <div class="row g-0">
-              <div class="col-lg-6">
-                <div class="p-5">
-                  
-
-                  <div class="row">
-                    <div class="col-md-6 mb-4 pb-2">
-
-                      <div class="form-outline">
-                        <input type="text" id="form3Examplev2" class="form-control " placeholder="First Name" />
-                       
-                      </div>
-
-                    </div>
-                    <div class="col-md-6 mb-4 pb-2">
-
-                      <div class="form-outline">
-                        <input type="text" id="form3Examplev3" class="form-control form-control-lg" placeholder="Last Name"  />
-                       
-                      </div>
-
-                    </div>
-                  </div>
-
-                
-
-                
-
-                  <div class="row">
-                    <div class="col-md-6 mb-4 pb-2 mb-md-0 pb-md-0">
-
-                      <div class="form-outline">
-                        <input type="text" id="form3Examplev5" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Examplev5">Bussines Arena</label>
-                      </div>
-
-                    </div>
-                    <div class="col-md-6">
-
-                      <select class="select">
-                        <option value="1">Employees</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                        <option value="4">Four</option>
-                      </select>
-
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-lg-6 bg-indigo text-white">
-                <div class="p-5">
-                  <h3 class="fw-normal mb-5">Contact Details</h3>
-
-                  <div class="mb-4 pb-2">
-                    <div class="form-outline form-white">
-                      <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
-                      <label class="form-label" for="form3Examplea2">Street + Nr</label>
-                    </div>
-                  </div>
-
-                  <div class="mb-4 pb-2">
-                    <div class="form-outline form-white">
-                      <input type="text" id="form3Examplea3" class="form-control form-control-lg" />
-                      <label class="form-label" for="form3Examplea3">Additional Information</label>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-md-5 mb-4 pb-2">
-
-                      <div class="form-outline form-white">
-                        <input type="text" id="form3Examplea4" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Examplea4">Zip Code</label>
-                      </div>
-
-                    </div>
-                    <div class="col-md-7 mb-4 pb-2">
-
-                      <div class="form-outline form-white">
-                        <input type="text" id="form3Examplea5" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Examplea5">Place</label>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <div class="mb-4 pb-2">
-                    <div class="form-outline form-white">
-                      <input type="text" id="form3Examplea6" class="form-control form-control-lg" />
-                      <label class="form-label" for="form3Examplea6">Country</label>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-md-5 mb-4 pb-2">
-
-                      <div class="form-outline form-white">
-                        <input type="text" id="form3Examplea7" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Examplea7">Code +</label>
-                      </div>
-
-                    </div>
-                    <div class="col-md-7 mb-4 pb-2">
-
-                      <div class="form-outline form-white">
-                        <input type="text" id="form3Examplea8" class="form-control form-control-lg" />
-                        <label class="form-label" for="form3Examplea8">Phone Number</label>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <div class="mb-4">
-                    <div class="form-outline form-white">
-                      <input type="text" id="form3Examplea9" class="form-control form-control-lg" />
-                      <label class="form-label" for="form3Examplea9">Your Email</label>
-                    </div>
-                  </div>
-
-                  <div class="form-check d-flex justify-content-start mb-4 pb-3">
-                    <input class="form-check-input me-3" type="checkbox" value="" id="form2Example3c" />
-                    <label class="form-check-label text-white" for="form2Example3">
-                      I do accept the <a href="#!" class="text-white"><u>Terms and Conditions</u></a> of your
-                      site.
-                    </label>
-                  </div>
-
-                  <button type="button" class="btn btn-light btn-lg"
-                    data-mdb-ripple-color="dark">Register</button>
-
-                </div>
-              </div>
-            </div>
+<div class="container ">
+    <form>
+    <div class= "row">
+        <div class= "col-md-6 mb-5">
+            <input type="text" class="form-control" placeholder="First Name" name="firstName"/>
          
-      </div>
+          </div>
+          <div class= "col-md-6 mb-5">
+            <input type="text" class="form-control" placeholder="Last Name" name="lastName"/>
+         
+          </div>
+          <div class= "col-md-6 mb-5">
+          <input type="text" placeholder="Birth Date"  class="form-control"  onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+
+            <!-- <input type="date" class="form-control" placeholder="Birthday" name="birthday"/> -->
+         
+          </div>
+          <div class= "col-md-6 mb-5">
+            <select class="form-select" aria-label="Select example" name="education">
+                <option>Education</option>
+                <option value="Master">Master</option> 
+                <option value="Bachelor">Bachelor</option>
+                <option value="Formim-Profesional">Formim Profesional</option>    
+            </select>
+          
+          </div>
+        <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="University" name= "university"></div>
+        <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="Branch"  name= "branch" ></div>
+        <div class="col-md-6 mb-5"><input type="tel" class="form-control" placeholder="Phone Number"  name= "phoneNumber "></div>
+        <div class= "col-md-6 mb-5"><input class="form-control form-control-lg " type="text"  placeholder="Start project" name="startProject" id="startProject" onfocus="(this.type='date')" />
+        </div>
+        <div class="col-md-12 mt-5 mb-5">
+            <div class="form-check form-switch form-check-custom form-check-solid">
+             <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault" name="active"/>
+             <label class="form-check-label" for="flexSwitchDefault">
+                 Active student
+             </label>
+             </div>
+        </div>
+
+        <div class="col-md-6 mb-5 ">
+             <select class="form-select"  class="form-control"  aria-label="Select language"  data-placeholder="English"  name= "language" >
+             <option>English </option>
+                 <option value="B1">B1</option>
+                 <option value="B2">B2</option>
+                 <option value="C1">C1</option>
+             </select>
+        </div>
+        <div class="col-md-6 mb-5">
+              <select class="form-select" class="form-control"  aria-label="Select language" placeholder="Italion"  name= "language" >
+              <option >Italian </option>
+               <option value="B1">B1</option>
+               <option value="B2">B2</option>
+               <option value="C1">C1</option>
+
+              </select>
+
+        </div>
+        <div class="col-md-6 mb-5 mt-5">
+            <div class="form-group">
+           <label for="" class="mb-5 ">Chronic Allergic Diseases</label>
+           <input type="text" class="form-control" id="" aria-describedby="" name="chronicAllergies " >
+           
+         </div>
+        </div>
+        <div class="col-md-6 mb-5 mt-5">
+        <div class="form-check form-switch form-check-custom form-check-solid">
+    <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault"/>
+    <label class="form-check-label" for="flexSwitchDefault">
+       Yes
+    </label>
+</div>
+</div>
+
+<div class="col-md-6">
+<a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#register-student">Continue</a>
+
+
+</div> 
+<div class="modal fade" tabindex="-1" id="register-student ">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Modal title</h3>
+
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
+                    <span class="svg-icon svg-icon-1"></span>
+                </div>
+                <!--end::Close-->
+            </div>
+
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+
+
+</form>
+
+
+</div>
+</div>
