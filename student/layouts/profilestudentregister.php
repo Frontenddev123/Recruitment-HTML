@@ -10,7 +10,9 @@
          
           </div>
           <div class= "col-md-6 mb-5">
-            <input type="date" class="form-control" placeholder="Birthday" name="birthday"/>
+          <input type="text" placeholder="Birth Date"  class="form-control"  onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+
+            <!-- <input type="date" class="form-control" placeholder="Birthday" name="birthday"/> -->
          
           </div>
           <div class= "col-md-6 mb-5">
@@ -25,7 +27,8 @@
         <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="University" name= "university"></div>
         <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="Branch"  name= "branch" ></div>
         <div class="col-md-6 mb-5"><input type="tel" class="form-control" placeholder="Phone Number"  name= "phoneNumber "></div>
-        <div class= "col-md-6 mb-5"><input type="date" class="form-control" placeholder="Availability to start job" name="start-date"/></div>
+        <div class= "col-md-6 mb-5"><input class="form-control form-control-lg " type="text"  placeholder="Start project" name="startProject" id="startProject" onfocus="(this.type='date')" />
+        </div>
         <div class="col-md-12 mt-5 mb-5">
             <div class="form-check form-switch form-check-custom form-check-solid">
              <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault"/>
@@ -68,6 +71,9 @@
     </label>
 </div>
 </div>
+
+
+
 
 
 
