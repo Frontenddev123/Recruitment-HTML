@@ -124,16 +124,16 @@
                                        <div class="col-md-6"></div>
                                        <div class="col-md-6 mt-5">
                                               <div class="form-check form-switch form-check-custom form-check-solid">
-                                                    <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked" checked="checked" />
-                                                    <label class="form-check-label" for="flexSwitchChecked">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked1" checked="checked" />
+                                                    <label class="form-check-label" for="flexSwitchChecked1">
                                                         Student Accomodation
                                                     </label>
                                               </div>
                                            </div>
                                           <div class="col-md-6 mt-5">
                                               <div class="form-check form-switch form-check-custom form-check-solid">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked" checked="checked" />
-                                                <label class="form-check-label" for="flexSwitchChecked">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked2" checked="checked" />
+                                                <label class="form-check-label" for="flexSwitchChecked2">
                                                 Room-Hotel-Room Transportation
                                                     
                                                 </label>
@@ -141,16 +141,16 @@
                                           </div>
                                           <div class="col-md-6 mt-5">
                                               <div class="form-check form-switch form-check-custom form-check-solid">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked" checked="checked" />
-                                                <label class="form-check-label" for="flexSwitchChecked">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked3" checked="checked" />
+                                                <label class="form-check-label" for="flexSwitchChecked3">
                                                 Food included
                                                 </label>
                                               </div>
                                           </div>
                                           <div class="col-md-6 mt-5">
                                               <div class="form-check form-switch form-check-custom form-check-solid">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked" checked="checked" />
-                                                <label class="form-check-label" for="flexSwitchChecked">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked4" checked="checked" />
+                                                <label class="form-check-label" for="flexSwitchChecked4">
                                                    Healthy Insuarance
                                                 </label>
                                               </div>
@@ -158,8 +158,8 @@
                                           <div class="row mt-10">
                                              <!-- Checkbox -->
                                             <div class="form-check d-flex justify-content-center mb-4">
-                                              <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-                                              <label class="form-check-label" for="form6Example8"> Accept  <span class="text-info">Accept terms of services</span>
+                                              <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault" checked />
+                                              <label class="form-check-label" for="flexCheckDefault"> Accept  <span class="text-info">Accept terms of services</span>
                                                   </label>
                                             </div>
                                            
