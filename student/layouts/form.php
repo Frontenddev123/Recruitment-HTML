@@ -1,4 +1,5 @@
 <div class="container">
+  <form>
     <div class="row">
         <div class="col-md-12">
             <div class="row">
@@ -45,26 +46,78 @@
                          </div>    
 
                      
-                         <div class="row mt-3">    
+                        <div class="row mt-3">    
 
-                             <div class="col-md-6 mb-5">  
-                             <label for="" class="form-label">Reception</label>
-                             <input type="text" class="form-control"/>
+                            <div class="col-md-6 mb-5">  
+                                 <label for="" class="form-label">Reception</label>
+                                 <input type="text" class="form-control" placeholder="Reception"/>
 
                             </div>
-                            <div class="col-md-6 mb-5">   <label for="" class="form-label">Reception</label>
-                                 <select class="form-select" aria-label="Select example">
-                                <option>Reception</option>
-                                <option value="">Waiter Assistant</option>
-                                <option value="">Bartender Assistant</option>
-                                <option value="">Maintenance</option>
-                                <option value="">Kitchen</option>
+                            <div class="col-md-6 mb-5">   
+                               <label for="" class="form-label">Select Priority</label>
+                                 <select class="form-select " aria-label="Select example">
+                             
+                                <option value="">First Priority</option>
+                                <option value="">Second Priority</option>
+                                <option value="">Third Priority</option>
+                                <option value="">Fourth Priority</option>
                             </select>
                             </div>
 
-                         
+                            <div class="col-md-6 mb-5">  
+                             <label for="" class="form-label">Waiter Assistant</label>
+                             <input type="text" class="form-control" placeholder="Waiter Assistant"/>
+
+                            </div>
+
+                            <div class="col-md-6 mb-5">   
+                            <label for="" class="form-label">Select Priority</label>
+                                 <select class="form-select" aria-label="Select example">
+                                
+                                <option value="">First Priority</option>
+                                <option value="">Second Priority</option>
+                                <option value="">Third Priority</option>
+                                <option value="">Fourth Priority</option>
+                            </select>
+                            </div>
                             
-                          </div>
+                            <div class="col-md-6 mb-5">  
+                                 <label for="Bartender-Assistant" class="form-label">Bartender Assistant</label>
+                                 <input type="text" class="form-control" placeholder="Bartender Assistant"/>
+
+                            </div>
+                            <div class="col-md-6 mb-5">   
+                               <label for="" class="form-label">Select Priority</label>
+                                 <select class="form-select " aria-label="Select example">
+                             
+                                <option value="">First Priority</option>
+                                <option value="">Second Priority</option>
+                                <option value="">Third Priority</option>
+                                <option value="">Fourth Priority</option>
+                            </select>
+                            </div>
+
+                            <div class="col-md-6 mb-5">  
+                             <label for="maintenance" class="form-label">Maintenance</label>
+                             <input type="text" class="form-control" placeholder="Maintenance"/>
+
+                            </div>
+                            
+                            <div class="col-md-6 mb-5">   
+                            <label for="kitchen" class="form-label">Kitchen</label>
+                                 <select class="form-select" aria-label="Select example">
+                                
+                                <option value="">First Priority</option>
+                                <option value="">Second Priority</option>
+                                <option value="">Third Priority</option>
+                                <option value="">Fourth Priority</option>
+                            </select>
+                            </div>
+
+
+                       
+                            
+                        </div>
                          
                     </div>    
 
@@ -73,4 +126,5 @@
              </div>
         </div>
     </div>
+</form>
 </div>

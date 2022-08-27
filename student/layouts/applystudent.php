@@ -20,10 +20,10 @@
 			<!--begin::Actions-->
 			<div class="d-flex justify-content-end">
 				
-			<button type="button" class="btn btn-danger" data-bs-toggle="modal"  data-bs-target="#kt_modal_scrollable_2">
+			<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#kt_modal_scrollable_1">
 		Student in Process</button>
 
-     <div class="modal fade" tabindex="-1" id="kt_modal_scrollable_2">
+     <div class="modal fade" tabindex="-1" id="kt_modal_scrollable_1">
         <div class="modal-dialog modal-xl ">
             <div class="modal-content">
                 <div class="modal-header">
@@ -41,7 +41,7 @@
                         <table class="table table-striped gy-7 gs-7">
                          <thead>
                           <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
-                           <th>Hotek Name</th>
+                           <th>Hotel Name</th>
                            <th>First Name</th>
                            <th>Last Name</th>
                            <th>Job Position</th>
@@ -83,3 +83,25 @@
 </div>
 
 
+</div>
+
+
+	<!--end::Actions-->
+	</div>
+		<!--end::Form-->
+		</div>
+			<!--end::Menu 1-->
+				<!--end::Menu-->				
+			</div>
+			<!--end::Wrapper-->
+			<!--begin::Button-->
+			
+			<!--end::Button-->
+		</div>
+		<!--end::Actions-->
+	</div>
+	<!--end::Container-->
+</div>
+		
+
+</div>
