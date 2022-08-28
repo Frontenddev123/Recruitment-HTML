@@ -20,10 +20,10 @@
 			<!--begin::Actions-->
 			<div class="d-flex justify-content-end">
 				
-			<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#kt_modal_1">
+			<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#kt_modal_scrollable_1">
 		Student in Process</button>
 
-     <div class="modal fade" tabindex="-1" id="kt_modal_1">
+     <div class="modal fade" tabindex="-1" id="kt_modal_scrollable_1">
         <div class="modal-dialog modal-xl ">
             <div class="modal-content">
                 <div class="modal-header">
