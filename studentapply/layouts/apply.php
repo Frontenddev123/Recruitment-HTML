@@ -224,6 +224,3 @@
 	<!--end::Container-->
 </div>
 		
-
-</div>
-</div>

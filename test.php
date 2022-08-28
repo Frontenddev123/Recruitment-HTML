@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-</head>
-<body>
-<div class="form-group">
-    <label class="control-label">Enter a Name</label>
-    <input id="name">
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+  <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
 </div>
 
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+</div>
 
-<script type="module">
-    import bootstrapValidate from './bootstrap-validate.js';
-
-    bootstrapValidate('#name', 'max:30:Your name must not be longer than 30 characters');
-</script>
-</body>
-</html>
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+  <div class="col-6">.col-6</div>
+  <div class="col-6">.col-6</div>
+</div>

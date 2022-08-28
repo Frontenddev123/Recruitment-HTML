@@ -6,13 +6,13 @@
   
     <div class="col-md-6 mb-4">
     <label for="Email" class="mb-4"> Email</label>
-      <input type="text" class="form-control" id="first-name"  name="email" required>
+      <input type="email" class="form-control" id="first-name"  name="email" required>
       
     </div>
 
     <div class="col-md-6 mb-4">
     <label for="Password" class="mb-4"> Password</label>
-      <input type="text" class="form-control" id="first-name"  name="password" required>
+      <input type="password" class="form-control" id="first-name"  name="password" required>
       
     </div>
    

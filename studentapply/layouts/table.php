@@ -1,89 +1,67 @@
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
 
+    
 
-<div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
- 		<!--begin::Post-->
-	<div class="content flex-row-fluid" id="kt_content">
-							
-		<div class="row gy-5 g-xl-10">
-								
-			<!--begin::Col-->
-			<div class="col-xl-10 mb-5 mb-xl-10">
-				<!--begin::Table Widget 4-->
-				<div class="card card-flush h-xl-100">
-					<!--begin::Card header-->
-					<div class="card-header pt-7">
-						<!--begin::Title-->
-						<h3 class="card-title align-items-start flex-column">
-							<span class="card-label fw-bold text-gray-800">Applications </span>
-							
-						</h3>
-						<!--end::Title-->
-					
-					</div>
-					<!--end::Card header-->
-					<!--begin::Card body-->
-				     <div class="card-body pt-2">
-					    <div class="table-responsive">
-                           <table class="table table-striped gy-7 gs-7"  id="myTable">
-                            <thead>
-                             <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
-                            <th></th>
-
-                             <th>Application Date</th>
-                                 <th>Start Date</th>
-                                 <th>End Date</th>   
-
-						
-
-                             </tr>
-                            </thead>
-                            <tbody>
-                             <tr>
-                                 <td>Napoli</td>
-                                <td>06/05/2023</td>
-                                 <td>06/05/2023</td>
-                                 <td>06/05/2023</td>
-                                 <td><a href="#" class="btn btn-danger btn-sm">View</a></td>
-                               </td>	
-                            </tr>			           
-                     
-                            </tbody>
-                        </table>
-	 
-                    </div> 
-                              
+        <div class="col-md-8 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
                 </div>
-                
-
-            </div>
-            
-            <div class="col-xl-2 mb-5 mb-xl-10">
-                 
-            </div>
-         </div>
-    </div>
-
-
-</div>
-
-</div>
-         
- 
-
-
               
-                           
+                <div class="row mt-3">
+                    <div class="col-md-8 mb-5">
+                         <div class="table-responsive">
+                         <table class="table table-hover table-rounded table-striped border gy-7 gs-7">
+                          <thead>
+                           <tr class="fw-semibold fs-6 text-gray-800 border-bottom-2 border-gray-200">
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                           </tr>
+                          </thead>
+                          <tbody>
+                           <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                           </tr>
+                           <tr>
+                            <td>Garrett Winters</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>63</td>
+                            <td>2011/07/25</td>
+                            <td>$170,750</td>
+                           </tr>
+                          </tbody>
+                         </table>
+                        </div>
+                   
+                     </div>
+                
+                </div>
+</div>
+        </div>
+
+        <div class="col-md-4  ">
+            <div class="card">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                <img class="rounded-circle mt-5" width="150px" 
+                src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg">
+                <h4 class="font-weight-bold">Xhoni</h4></div>
+            </div>
+        </div>
+
       
         
-
-           
-   
-
-                          										
-							
-					
-
-
-
-
-					
+    </div>
+</div>
+</div>
+</div>
