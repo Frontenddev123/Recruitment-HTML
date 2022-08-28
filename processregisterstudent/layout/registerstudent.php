@@ -17,8 +17,9 @@
          
           </div>
           <div class= "col-md-6 mb-5">
-            <select class="form-select" aria-label="Select example" name="education">
-                <option>Education</option>
+            <select class="form-select" aria-label="Select example" name="education" required>
+                <option value="">Select Education</option>
+                <option value="Education">Education</option>
                 <option value="Master">Master</option> 
                 <option value="Bachelor">Bachelor</option>
                 <option value="Formim-Profesional">Formim Profesional</option>    
