@@ -1,3 +1,4 @@
+
 <div class="container mt-3">
 <form>
  <div class="row">
@@ -73,3 +74,15 @@
 </form>
   </div>
 </div>
+
+<script src="/node_modules/bootstrap-validate/dist/bootstrap-validate.js"></script>
+
+<script>
+
+bootstrapValidate(
+   '#firstName',
+   'min:5:Enter a valid Name!'
+);
+</script>
+
+<br><br><br>

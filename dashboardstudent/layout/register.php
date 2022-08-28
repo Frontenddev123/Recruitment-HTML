@@ -1,15 +1,7 @@
 <div class="container ">
     <form>
     <div class= "row">
-        <div class= "col-md-6 mb-5">
 
-            <input type="text" class="form-control" placeholder="First Name" name="firstName"/>
-         
-          </div>
-          <div class= "col-md-6 mb-5">
-            <input type="text" class="form-control" placeholder="Last Name" name="lastName"/>
-         
-          </div>
           <div class= "col-md-6 mb-5">
           <input type="text" placeholder="Birth Date"  class="form-control"  onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
 

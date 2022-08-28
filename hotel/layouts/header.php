@@ -11,7 +11,7 @@
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="" />
 		<meta property="og:site_name" content="Recruitment | Company" />
-	
+
 		<link rel="shortcut icon" href="assets/media/logos/favicon_32x32_px.png" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
