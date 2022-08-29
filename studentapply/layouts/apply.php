@@ -147,19 +147,9 @@
                                                           </select>
                                                           </div> 
                                                                    
-                                                          <div class="col-md-4 "> <label for=""   class="required form-label mt-5 fw-bold" required>Reception</label></div>                                                                                      
+                                                                                                                                         
 
-                                                          <div class="col-md-8 mb-5">                                                   
-
-                                                          <select class="form-select " aria-label="Select example"  required>                    
-                                                              <option value="">Select  Priority</option>
-                                                              <option value="">First Priority</option>
-                                                              <option value="">Second Priority</option>
-                                                              <option value="">Third Priority</option>
-                                                              <option value="">Fourth Priority</option>
-                                                              <option value="">Five Priority</option>
-                                                          </select>
-                                                          </div> 
+                                                         
                                                           <div class="col-md-6 "> 
                                                           <div class="form-check form-switch form-check-custom form-check-solid">
                                                                <input class="form-check-input" type="checkbox" value=""

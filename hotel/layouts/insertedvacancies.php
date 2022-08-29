@@ -104,16 +104,24 @@
                           
                            <!-- Start Modal Body -->
                               <div class="modal-body">
+
                                 <div class="container">
+
                                    <div class="table-resposive">
+
                                         <div class="table-wrapper">
+
                                            <div class="table-title">
+
                                                <div class="row">
                                                    <div class="col-md-6">
                                                         <h1>Blu Hotel    </h1>
                                                    </div>
+
                                                    <div class="col-md-6">
+
                                                        <div class="search-box">
+
                                                            <div class="input-group">
                                                            <input type="text" id="search" class="form-control" placeholder="Search">
                                                           
@@ -122,10 +130,15 @@
                                                                             
 
                                                    </div>
+
                                                </div>
+
                                            </div>
+
                                          <div class="table-responsive">
+
                                        <table class="table table-striped gy-7 gs-7 mt-10">
+
                                        <thead>
                                        <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
                                           <th>First Name</th>
@@ -152,10 +165,15 @@
                                          </tr>                     
 
                                     </tbody>
+
                                 </table>
+
                            </div>
+
                       </div>
+
                      </div>
+                     
                      </div>                     
 
                      </div>
