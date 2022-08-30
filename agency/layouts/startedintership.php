@@ -96,12 +96,28 @@
                                  </div>
 
                                  <div class="modal-body">
-                                     <p>lorem ipsum</p>
-                                     <hr>
-                                     <p>lorem ipsum</p>
-                                     <hr>
-                                     <p>lorem ipsum</p>
-                                     <hr>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">   
+                                                <p>lorem ipsum</p>
+                                                  <hr>
+                                                  <p>lorem ipsum</p>
+                                                  <hr>
+                                                  <p>lorem ipsum</p>
+                                                  <hr>
+                                            </div>
+                                            <div class="col-md-6">   
+                                             <ul>
+                                                <li>1</li>
+                                                <li>2</li>
+                                                <li>3</li>
+                                                <li>5</li>
+                                                <li>6</li>
+                                             </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
                                  </div>
 
                                  <div class="modal-footer">
