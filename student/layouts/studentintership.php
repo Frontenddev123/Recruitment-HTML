@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Students in Intership</title>
 
-</head>
-<body>
   
 
 <div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
@@ -173,9 +164,9 @@
                                                          <input class="rating-input" name="rating" value="5" type="radio" id="kt_rating_input_5"/>
                                                          <!--end::Star 5-->
                                                     </div>          
-                                             </div> 
+                                                    </div> 
 
-                                            </div>  
+                                                   </div>  
 
                                          </div>     
                                                                    
@@ -196,17 +187,17 @@
 
                  </div>
 
-             </div>
+                </div>
 
-         </div> 
+            </div> 
 
-     </div>
+        </div>
             
     </div>
 
 </div>
 
-</div>                           
+                         
                   
                       
                         
@@ -217,7 +208,7 @@ $(document).ready(function() {
   $('#rateMe1').mdbRate();
 });
 </script>
-</div>
+
          
  
 
