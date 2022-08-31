@@ -39,26 +39,39 @@
                    
                      </div>
                      <div class="modal fade" tabindex="-1" id="applystudents">
-                           <div class="modal-dialog modal-lg">
+                           <div class="modal-dialog  modal-dialog-centered modal-lg">
                                <div class="modal-content ">
                                    <div class="modal-header">
-                                       <h3 >The departure will be on June 1, 11:00 AM</h3> <br> <br>
-                                          <p>Please check all the boxes to confirm application</p>                     
-
+                                         <h3 >Modal title</h3>
                                        <!--begin::Close-->
                                        <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
-                                           <span class="svg-icon svg-icon-1"></span>
+                                           <span class="svg-icon svg-icon-1">X</span>
                                        </div>
                                        <!--end::Close-->
                                    </div>                       
 
-                                   <div class="modal-body">
-                                       <p>Modal body text goes here.</p>
-                                   </div>                       
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row">
+                                             <div class="col-md-12">
+                                             <div class="modal-heading ">
+                                                <h3 class="  d-flex justify-content-center" >The departure will be on June 1, 11:00 AM</h3> 
+                                              </div>  
+                                              <div class="col-md-12  fw-semibold d-flex justify-content-center mt-5">Pleasse check all the boxes to confirm application</div>
+                                              <div class="col-md-6">p</div>
+                                              <div class="col-md-6">p</div>
+                                              <div class="col-md-6">p</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                        
+                                                         
 
                                    <div class="modal-footer">
-                                       <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                                       <button type="button" class="btn btn-primary">Save changes</button>
+                                       <button type="button" class="btn btn-light" data-bs-dismiss="modal">Apply</button>
+                                       <button type="button" class="btn btn-primary">Cancel</button>
                                    </div>
                                </div>
                            </div>

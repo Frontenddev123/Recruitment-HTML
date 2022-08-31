@@ -184,11 +184,13 @@
              
                           <button type="submit" class="btn btn-primary">Register</button>
                    </div>
-                   </form>         
+                         
        		    </div>
-                   
+
+             
+
                </div>     
-               
+            </form>    
            </div>
        </div>
 
