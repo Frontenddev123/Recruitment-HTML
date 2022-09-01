@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 
 
 <div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
@@ -62,7 +72,7 @@
                               <td>Aida </td>
                               <td>Caushi</td>
                               <td>20/05/2022</td>
-							  <td><img src="assets/media/icons/check.png" alt="check"   data-bs-toggle="modal" data-bs-target="#processpercentage"></td>
+							  <td><img src="assets/media/icons/check.png" alt="check"   data-bs-toggle="modal" data-bs-target="#processpercentage1"></td>
 							  </td>  <td><i class="bi bi-person  fs-2x  "></i></td>
                               </tr>
 						  
@@ -71,7 +81,7 @@
 	 
                     </div>           
                 </div>
-                <div class="modal fade" tabindex="-1" id="processpercentage">
+                <div class="modal fade" tabindex="-1" id="processpercentage1">
                      <div class="modal-dialog modal-dialog-centered modal-xl">
                             <div class="modal-content">
                                  <div class="modal-header">
@@ -86,42 +96,43 @@
 
                                  <div class="modal-body">
                                     
-                         <div class="container-fluid">
+                                <div class="container-fluid">
                                         <div class="row">
                                             <div class="col-lg-12">  
-                                                <div class="row">
-                                                    <div class="col-md-1  d-flex justify-content-center align-items-center bg-primary">
-                                                    10%
-                                                    </div>
-                                                    <div class="col-md-1  bg-primary">
-                                                    20%
-                                                    </div>
-                                                    <div class="col-md-1  bg-primary">
-                                                    30%
-                                                    </div>
-                                                    <div class="col-md-1  bg-primary">
-                                                    40%
-                                                    </div>
-                                                    <div class="col-md-1  ">
-                                                    50%
-                                                    </div>
-                                                    <div class="col-md-1  ">
-                                                    60%
-                                                    </div>
-                                                    <div class="col-md-1  ">
-                                                    70%
-                                                    </div>
-                                                    <div class="col-md-1  ">
-                                                    80%
-                                                    </div>
-                                                    <div class="col-md-1  ">
-                                                    90%
-                                                    </div>
-                                                    <div class="col-md-1  ">
-                                                    100%
-                                                    </div>
-                                                </div> 
-                                           </div>
+                                            <div class="table-responsive">
+                                                 <table class="table table-rounded   gy-7 gs-7">
+                                                  <thead>
+                                                   <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
+                                                    <th class="bg-secondary text-white"> 30%</th>
+                                                    <th class="bg-primary text-white"> 40%</th>
+                                                    <th> 50%</th>
+                                                    <th> 60%</th>
+                                                    <th>80%</th>
+                                                    <th>100%</th>
+                                                   </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                   <tr>
+                                                    <td class="fw-semibold">Documentation is completed</td>
+                                                    <td class="fw-semibold">Drafting of the contract by the Italian side</td>
+                                                    <td class="fw-semibold">Signing the contract by the student</td>
+                                                    <td class="fw-semibold">Returning the final contract to Italy</td>
+                                                    <td class="fw-semibold">Ticketing Date and Airport of arrival</td>
+                                                    <td class="fw-semibold">Arrival at the Hotel</td>
+                                                   </tr>
+                                                   <tr>
+                                                    <td class="fw-semibold">Albania</td>
+                                                    <td class="fw-semibold">Albania</td>
+                                                    <td class="fw-semibold">Albania</td>
+                                                    <td class="fw-semibold">Albania</td>
+                                                    <td class="fw-semibold">Albania</td>
+                                                    <td class="fw-semibold">Albania</td>
+                                                   </tr>
+                                                  </tbody>
+                                                 </table>
+                                                </div>
+
+                                            </div>
                                         </div>
                                     </div>
                                   
@@ -129,7 +140,7 @@
 
                               
 
-                             </div>
+                                </div>
 
                          </div>
 
@@ -144,7 +155,8 @@
     </div>
 </div>
 
-		
+</body>
+</html>		
         
 
            
