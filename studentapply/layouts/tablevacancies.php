@@ -42,14 +42,14 @@
                            <div class="modal-dialog  modal-dialog-centered modal-lg">
                                <div class="modal-content ">
                                    <div class="modal-header">
-                                         <h3 >Modal title</h3>
+                                         <h3 >Apply</h3>
                                        <!--begin::Close-->
                                        <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
                                            <span class="svg-icon svg-icon-1">X</span>
                                        </div>
                                        <!--end::Close-->
                                    </div>                       
-
+                                <form>
                                 <div class="modal-body">
                                     <div class="container">
                                         <div class="row">
@@ -57,22 +57,43 @@
                                              <div class="modal-heading ">
                                                 <h3 class="  d-flex justify-content-center" >The departure will be on June 1, 11:00 AM</h3> 
                                               </div>  
-                                              <div class="col-md-12  fw-semibold d-flex justify-content-center mt-5">Pleasse check all the boxes to confirm application</div>
-                                              <div class="col-md-6">p</div>
-                                              <div class="col-md-6">p</div>
-                                              <div class="col-md-6">p</div>
+                                              <div class="col-md-12  mb-5 mt-5  fw-semibold d-flex justify-content-center mt-5">Pleasse check all the boxes to confirm application</div>
+                                              <div class="col-md-6 mb-5 mt-5">
+                                                 <div class="form-check">
+                                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5" required>
+                                                      <label class="form-check-label" for="flexCheckDefault5">
+                                                      Active passport for at least 6 months
+                                                      </label>
+                                                    </div>
+                                                </div>
+                                              <div class="col-md-6 mb-5 mt-5"> 
+                                                <div class="form-check">
+                                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6" required>
+                                                      <label class="form-check-label" for="flexCheckDefault6">
+                                                      Have you been abroad the last 90 days?
+                                                      </label>
+                                                    </div>
+                                                </div>
+                                              <div class="col-md-6 mb-5 mt-5"> <div class="form-check">
+                                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7" required>
+                                                      <label class="form-check-label" for="flexCheckDefault7">
+                                                      Are you still an active student
+                                                      </label>
+                                                    </div>
+                                                </div>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                         
-                                                         
+                                                    
 
                                    <div class="modal-footer">
-                                       <button type="button" class="btn btn-light" data-bs-dismiss="modal">Apply</button>
-                                       <button type="button" class="btn btn-primary">Cancel</button>
+                                      
+                                       <button type="submit" class="btn btn-primary">Apply</button>
                                    </div>
+                                  <form>
                                </div>
                            </div>
                     </div>         
