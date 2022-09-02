@@ -1,266 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    body {
-  font-family:"Open Sans", Helvetica, Arial, sans-serif;
-  color:#555;
-  max-width:680px;
-  margin:0 auto;
-  padding:0 20px;
-}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- select2 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 
-* {
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-}
-
-*:before, *:after {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
-
-.clearfix {
-  clear:both;
-}
-
-.text-center {text-align:center;}
-
-a {
-  color: tomato;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #2196f3;
-}
-
-pre {
-display: block;
-padding: 9.5px;
-margin: 0 0 10px;
-font-size: 13px;
-line-height: 1.42857143;
-color: #333;
-word-break: break-all;
-word-wrap: break-word;
-background-color: #F5F5F5;
-border: 1px solid #CCC;
-border-radius: 4px;
-}
-
-.header {
-  padding:20px 0;
-  position:relative;
-  margin-bottom:10px;
-  
-}
-
-.header:after {
-  content:"";
-  display:block;
-  height:1px;
-  background:#eee;
-  position:absolute; 
-  left:30%; right:30%;
-}
-
-.header h2 {
-  font-size:3em;
-  font-weight:300;
-  margin-bottom:0.2em;
-}
-
-.header p {
-  font-size:14px;
-}
+  <!-- select2-bootstrap4-theme -->
+  <link href="https://raw.githack.com/ttskch/select2-bootstrap4-theme/master/dist/select2-bootstrap4.css" rel="stylesheet"> <!-- for live demo page -->
+  <link href="select2-bootstrap4.css" rel="stylesheet"> <!-- for local development env -->
 
 
-
-#a-footer {
-  margin: 20px 0;
-}
-
-.new-react-version {
-  padding: 20px 20px;
-  border: 1px solid #eee;
-  border-radius: 20px;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1);
-  
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.new-react-version .react-svg-logo {
-  text-align: center;
-  max-width: 60px;
-  margin: 20px auto;
-  margin-top: 0;
-}
-
-
-
-
-
-.success-box {
-  margin:50px 0;
-  padding:10px 10px;
-  border:1px solid #eee;
-  background:#f9f9f9;
-}
-
-.success-box img {
-  margin-right:10px;
-  display:inline-block;
-  vertical-align:top;
-}
-
-.success-box > div {
-  vertical-align:top;
-  display:inline-block;
-  color:#888;
-}
-
-
-
-/* Rating Star Widgets Style */
-.rating-stars ul {
-  list-style-type:none;
-  padding:0;
-  
-  -moz-user-select:none;
-  -webkit-user-select:none;
-}
-.rating-stars ul > li.star {
-  display:inline-block;
-  
-}
-
-/* Idle State of the stars */
-.rating-stars ul > li.star > i.fa {
-  font-size:2.5em; /* Change the size of the stars */
-  color:#ccc; /* Color on idle state */
-}
-
-/* Hover state of the stars */
-.rating-stars ul > li.star.hover > i.fa {
-  color:#FFCC36;
-}
-
-/* Selected state of the stars */
-.rating-stars ul > li.star.selected > i.fa {
-  color:#FF912C;
-}
-
-  </style>
 </head>
 <body>
-  
-<header class='header text-center'>
-    <h2>Rating Widget</h2>
-  <p>A simple star rating widget with <b>jQuery</b> and <b>FontAwesome</b> icons.</p>
-</header>
+<div class="wrapper">
+<div class="container">
+  <h3>Select University</h3>
+  <form>
+    <div class="form-group">
+      <label>Example of multiple select</label>
+      <select multiple placeholder="Choose University" data-allow-clear="1">
+      <option>Universiteti i Tiranës</option>  
+      <option>Universiteti Politeknik i Tiranës</option>  
+      <option>Universiteti Bujqësor i Tiranës</option>  
+      <option>Universiteti i Elbasanit "Aleksandër Xhuvani"</option>  
+      <option>Universiteti "Luigj Gurakuqi", Shkodër</option>  
+      <option>Universiteti "Eqrem Çabej", Gjirokastër</option>  
+      <option>Universiteti "Fan S. Noli", Korçë</option>  
+      <option>Universiteti "Ismail Qemali", Vlorë</option>  
+      <option>Universiteti "Aleksandër Moisiu", Durrës</option>  
+      <option>Universiteti i Arteve</option>  
+      <option>Universiteti i Sporteve të Tiranës</option>  
+      <option>Universiteti i Mjekësisë, Tiranë</option>  
+      <option>"Universiteti i New York-ut në Tiranë"</option>  
+      <option>Universiteti "Luarasi"</option>  
+      <option>Universiteti Privat "Albanian University"</option>  
+      <option>Universiteti Katolik "Zoja e Këshillit të Mirë"</option>  
+      <option>Universiteti "Barleti"</option>  
+      <option>Universiteti Europian i Tiranës</option>  
+      <option>Universiteti "Aldent"</option>  
+      <option>Universiteti Polis</option>  
+      <option>Universiteti "EPOKA"</option>  
+      <option>Universiteti "Mesdhetar i Shqipërisë"</option>  
+      <option>Universiteti "Metropolitan Tirana"</option>  
+      <option>Universiteti Western Balkans</option>  
+      <option>Shkolla e Lartë "Nehemia"</option>  
+      <option>Akademia e Studimeve Albanologjike</option>  
+      <option>Akademia e Forcave të Armatosura</option>  
+      <option>Akademia e Sigurisë</option>  
+      <option>Akademia e Filmit dhe Multimedias "Marubi"</option>  
+      <option>Akademia "Ivodent"</option>  
+      <option>Kolegji Universitar "Qiriazi"</option>  
+      <option>Kolegji Universitar "WISDOM"</option>  
+      <option>Kolegji Universitar "Pavarësia Vlorë"</option>  
+      <option>Kolegji Universitar "LOGOS"</option>  
+      <option>Tirana Business University College</option>  
+      <option>Kolegji Universitar "Bedër"</option>  
+      <option>Kolegji Universitar "I Biznesit"</option>  
+      <option>Kolegji Universitar "REALD"</option>  
+      <option>Kolegji Universitar "Instituti Kanadez i Teknologjisë"</option>  
+      <option>Kolegji Profesional i Tiranës</option>  
+      <option>Tirana Esthetics & Style School</option>  
+      <option>Kolegji Profesional i Lartë Gjerman i Teknologjisë</option>  
 
-<section class='rating-widget'>
-  
-  <!-- Rating Stars Box -->
-  <div class='rating-stars text-center'>
-    <ul id='stars'>
-      <li class='star' title='Poor' data-value='1'>
-        <i class='fa fa-star fa-fw'></i>
-      </li>
-      <li class='star' title='Fair' data-value='2'>
-        <i class='fa fa-star fa-fw'></i>
-      </li>
-      <li class='star' title='Good' data-value='3'>
-        <i class='fa fa-star fa-fw'></i>
-      </li>
-      <li class='star' title='Excellent' data-value='4'>
-        <i class='fa fa-star fa-fw'></i>
-      </li>
-      <li class='star' title='WOW!!!' data-value='5'>
-        <i class='fa fa-star fa-fw'></i>
-      </li>
-    </ul>
-  </div>
-  
-  <div class='success-box'>
-    <div class='clearfix'></div>
-   
-    <div class='text-message'></div>
-    <div class='clearfix'></div>
-  </div>
-  
-  
-  
-</section>
 
-</body>
+
+      </select>
+    </div>
+</form>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+
 <script>
-  $(document).ready(function(){
-  
-  /* 1. Visualizing things on Hover - See next part for action on click */
-  $('#stars li').on('mouseover', function(){
-    var onStar = parseInt($(this).data('value'), 10); // The star currently mouse on
-   
-    // Now highlight all the stars that's not after the current hovered star
-    $(this).parent().children('li.star').each(function(e){
-      if (e < onStar) {
-        $(this).addClass('hover');
-      }
-      else {
-        $(this).removeClass('hover');
-      }
-    });
-    
-  }).on('mouseout', function(){
-    $(this).parent().children('li.star').each(function(e){
-      $(this).removeClass('hover');
+  $(function () {
+  $('select').each(function () {
+    $(this).select2({
+      theme: 'bootstrap4',
+      width: 'style',
+      placeholder: $(this).attr('placeholder'),
+      allowClear: Boolean($(this).data('allow-clear')),
     });
   });
-  
-  
-  /* 2. Action to perform on click */
-  $('#stars li').on('click', function(){
-    var onStar = parseInt($(this).data('value'), 10); // The star currently selected
-    var stars = $(this).parent().children('li.star');
-    
-    for (i = 0; i < stars.length; i++) {
-      $(stars[i]).removeClass('selected');
-    }
-    
-    for (i = 0; i < onStar; i++) {
-      $(stars[i]).addClass('selected');
-    }
-    
-    // JUST RESPONSE (Not needed)
-    var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
-    var msg = "";
-    if (ratingValue > 1) {
-        msg = "Thanks! You rated this " + ratingValue + " stars.";
-    }
-    else {
-        msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
-    }
-    responseMessage(msg);
-    
-  });
-  
-  
 });
-
-
-function responseMessage(msg) {
-  $('.success-box').fadeIn(200);  
-  $('.success-box div.text-message').html("<span>" + msg + "</span>");
-}
 </script>
+</body>
 </html>
