@@ -1,13 +1,56 @@
 <div class="container rounded bg-white mt-5 mb-5">
+   <form>
     <div class="row">
 
-        <div class="col-md-3 border-right">
-            <div class="card">
+        <div class="col-md-3  border-right">
+        <!--begin::Image input-->
+         <div class="image-input image-input-empty" data-kt-image-input="true" style="background-image: url(/assets/media/svg/avatars/blank.svg)">
+             <!--begin::Image preview wrapper-->
+             <div class="image-input-wrapper w-125px h-125px"></div>
+             <!--end::Image preview wrapper-->        
+
+             <!--begin::Edit button-->
+             <label class="btn btn-icon btn-circle btn-color-muted btn-active-color-primary w-25px h-25px bg-body shadow"
+                data-kt-image-input-action="change"
+                data-bs-toggle="tooltip"
+                data-bs-dismiss="click"
+                title="Change avatar">
+                 <i class="bi bi-pencil-fill fs-7"></i>        
+
+                 <!--begin::Inputs-->
+                 <input type="file" name="avatar" accept=".png, .jpg, .jpeg" />
+                 <input type="hidden" name="avatar_remove" />
+                 <!--end::Inputs-->
+             </label>
+             <!--end::Edit button-->        
+
+             <!--begin::Cancel button-->
+             <span class="btn btn-icon btn-circle btn-color-muted btn-active-color-primary w-25px h-25px bg-body shadow"
+                data-kt-image-input-action="cancel"
+                data-bs-toggle="tooltip"
+                data-bs-dismiss="click"
+                title="Cancel avatar">
+                 <i class="bi bi-x fs-2"></i>
+             </span>
+             <!--end::Cancel button-->        
+
+             <!--begin::Remove button-->
+             <span class="btn btn-icon btn-circle btn-color-muted btn-active-color-primary w-25px h-25px bg-body shadow"
+                data-kt-image-input-action="remove"
+                data-bs-toggle="tooltip"
+                data-bs-dismiss="click"
+                title="Remove avatar">
+                 <i class="bi bi-x fs-2"></i>
+             </span>
+             <!--end::Remove button-->
+         </div>
+ <!--end::Image input-->
+            <!-- <div class="card">
             <div class="d-flex flex-column align-items-center text-center p-3 py-5">
                 <img class="rounded-circle mt-5" width="150px" 
                 src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg">
                 <h4 class="font-weight-bold">Xhoni</h4></div>
-            </div>
+            </div> -->
         </div>
 
         <div class="col-md-5 border-right">
@@ -15,33 +58,30 @@
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h4 class="text-right">Profile Settings</h4>
                 </div>
-                <!-- <div class="row mt-2">
-                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
-                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
-                </div> -->
+              
                 <div class="row mt-3">
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="First name" name= "firstName"></div>
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Last name" name= "lastName"></div>
-                    <div class="col-md-12 mb-5"><input type="date" class="form-control" placeholder="birthday"  name= "birthday" value=""></div>
-                    <div class="col-md-12 mb-5"><input type="email" class="form-control" placeholder="Email" name= "email"></div>
-                    <div class="col-md-12 mb-5"><input type="tel" class="form-control" placeholder="Phone Number"  name= "phoneNumber " value=""></div>
+                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="First name" name= "firstName" required></div>
+                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Last name" name= "lastName" required></div>
+                    <div class="col-md-12 mb-5"><input type="date" class="form-control" placeholder="birthday"  name= "birthday" value="" required></div>
+                    <div class="col-md-12 mb-5"><input type="email" class="form-control" placeholder="Email" name= "email" required></div>
+                    <div class="col-md-12 mb-5"><input type="tel" class="form-control" placeholder="Phone Number"  name= "phoneNumber " value="" required></div>
                    
                 </div>
                 
             </div>
         </div>
 
-        <div class="col-md-4">
+      <div class="col-md-4">
             <div class="p-3 py-5">
                  
             <div class="d-flex justify-content-between align-items-center mb-3">  <h4>Personal details</h4></div>
                   
-                 <div class="col-md-12 mb-5"><input type="number" class="form-control" placeholder="Passport Id" name= ""></div>
-                    <div class="col-md-12 mb-5"><input type="number" class="form-control" placeholder="Passport Experation Date " name= ""></div>
+                 <div class="col-md-12 mb-5"><input type="number" class="form-control" placeholder="Passport Id" name= "" required></div>
+                    <div class="col-md-12 mb-5"><input type="number" class="form-control" placeholder="Passport Experation Date " name= "" required></div>
             </div>
-        </div>
+        </div> 
 
-        <div class="col-md-3">
+      <div class="col-md-3">
             <div class="card">
                <div class="d-flex flex-column align-items-center text-center p-3 py-5">
                 
@@ -51,23 +91,20 @@
                  </iframe>
                </div>
             </div>
-        </div>
+        </div> 
 
-        <div class="col-md-5">
+       <div class="col-md-5">
             <div class="p-3 py-5">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h4 class="text-right">Education</h4>
                 </div>
-                <!-- <div class="row mt-2">
-                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
-                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
-                </div> -->
+              
                 <div class="row mt-3">
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Education" name= "education"></div>
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="University" name= "university"></div>
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Branch"  name= "branch" ></div>
+                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Education" name= "education" required></div>
+                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="University" name= "university" required></div>
+                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Branch"  name= "branch" required ></div>
                     <div class="col-md-12 mb-5 ">
-                    <select class="form-select"  class="form-control" data-control="select2" data-placeholder="English"  name= "language" >
+                    <select class="form-select"  class="form-control" data-control="select2" data-placeholder="English"  name= "language" required>
                     <option selected>English </option>
                         <option value="B1">B1</option>
                         <option value="B2">B2</option>
@@ -76,7 +113,7 @@
                     </div>
 
                     <div class="col-md-12 mb-5">
-                    <select class="form-select" class="form-control" placeholder="Italion"  name= "language" >
+                    <select class="form-select" class="form-control" placeholder="Italion"  name= "language" required >
                     <option selected>Italian </option>
                      <option value="B1">B1</option>
                      <option value="B2">B2</option>
@@ -90,7 +127,7 @@
                 
             </div>
 
-        </div>
+        </div> 
         <div class="col-md-4">
            <div class="p-3 py-5">
            <div class="d-flex justify-content-between align-items-center mb-3">
@@ -113,10 +150,18 @@
 
                   
             </div>
+            
 
+        </div> 
+        <div class="row">
+             <div class="col-md-9"></div>
+             <div class="col-md-3">
+             <button type="submit" class="btn btn-primary">Edit Profile</button>
+             </div>
         </div>
-        
+               
     </div>
+    </form>
 </div>
 </div>
 </div>

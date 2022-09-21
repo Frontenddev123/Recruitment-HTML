@@ -1,4 +1,99 @@
 
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Reviwe Modal</title>
+    <style>
+    
+.star-rating form {
+    display: none;
+}
+.star-rating .thanks-msg {
+    display: none;
+    font-size: 20px;
+    margin: 40px auto;
+    color: #4caf50;
+    background-color: rgba(76, 175, 80, 0.1411764705882353);
+    padding: 8px 20px;
+    border-left: 3px solid #4caf50;
+    border-radius: 20px;
+}
+.star-rating input {
+    display: none;
+}
+.star-rating {
+ 
+    display: table;
+    width: 350px;
+}
+.star-rating label {
+    padding: 10px;
+  
+    font-size: 16px;
+    color: #eee;
+}
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+    color: #ffc107;
+}
+.star-rating input:checked ~ label {
+    color: #ffc107;
+}
+.star-rating form .rating-reaction:before {
+    width: 100%;
+    float: left;
+    color: #ffc107;
+}
+.star-rating #rating-1:checked ~ form .rating-reaction:before {
+    /* content: "I hate it"; */
+}
+.star-rating #rating-2:checked ~ form .rating-reaction:before {
+    /* content: "I don't like it"; */
+}
+.star-rating #rating-3:checked ~ form .rating-reaction:before {
+    content: "It is good";
+}
+.star-rating #rating-4:checked ~ form .rating-reaction:before {
+    content: "I like it";
+}
+.star-rating #rating-5:checked ~ form .rating-reaction:before {
+    content: "I love it";
+}
+.star-rating input:checked ~ form {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.star-rating form .rating-reaction {
+    font-size: 24px;
+    float: left;
+    text-transform: capitalize;
+}
+.star-rating form .submit-rating {
+    border: none;
+    outline: none;
+    background: #795548;
+    color: #ffc107;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    cursor: pointer;
+    float: right;
+}
+form .submit-rating:hover {
+    background-color: #333;
+}
+    </style>
+</head>
+<body>
+    
 
 <div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
  		<!--begin::Post-->
@@ -8,10 +103,13 @@
 								
 			<!--begin::Col-->
 			<div class="col-xl-12 mb-5 mb-xl-10">
+
 				<!--begin::Table Widget 4-->
 				<div class="card card-flush h-xl-100">
+
 					<!--begin::Card header-->
 					<div class="card-header pt-7">
+
 						<!--begin::Title-->
 						<h3 class="card-title align-items-start flex-column">
 							<span class="card-label fw-bold text-gray-800">Students in Intership </span>
@@ -42,69 +140,212 @@
 							<!--begin::Filters-->
 						</div>
 						<!--end::Actions-->
-					</div>
+				    </div>
 					<!--end::Card header-->
 					<!--begin::Card body-->
-				  <div class="card-body pt-2">
-					<div class="table-responsive">
-                           <table class="table table-striped gy-7 gs-7"  id="myTable">
-                            <thead>
-                             <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
-                             <th>ID</th>
+				    <div class="card-body pt-2">
+					   <div class="table-responsive">
+                            <table class="table table-striped gy-7 gs-7"  id="myTable">
+                                 <thead>
+                                  <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
+                                  <th>ID</th>
 
-                              <th>Start Date</th>
-                              <th>End Date</th>
-                              <th>Job Position</th>
-                              <th>Student Code<th>      
+                                   <th>Start Date</th>
+                                   <th>End Date</th>
+                                   <th>Job Position</th>
+                                   <th>Student Code<th>      
 
-						
+					      	
 
-                             </tr>
-                            </thead>
-                            <tbody>
-                             <tr>
-                             <td>Tiger Nixon</td>
-                              <td>10/20/2022</td>
-                              <td>11/20/2022</td>
-                              <td>Waiter</td>
-                              <td>3033</td>
-                              <td><a href="#" class="btn btn-danger "  data-bs-toggle="modal" data-bs-target="#reviewmodal">Review</a></td>
-                              <td><i class="bi bi-person-fill fs-2x"></i></td> 
-                               </td>	
-                               </tr>			           
-                     
-                            </tbody>
-                        </table>
-	 
-                    </div>           
-                </div>
-                <!-- Modal -->
-                  <div class="modal fade" id="reviewmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                  <tr>
+                                  <td>Tiger Nixon</td>
+                                   <td>10/20/2022</td>
+                                   <td>11/20/2022</td>
+                                   <td>Waiter</td>
+                                   <td>3033</td>
+                                   <td><a href="#" class="btn btn-danger "  data-bs-toggle="modal" data-bs-target="#reviewmodal">Review</a></td>
+                                   <td><i class="bi bi-person-fill fs-2x"></i></td> 
+                                    </td>	
+                                    </tr>			           
+                       
+                                  </tbody>
+                            </table>            
+                         </div>
+                    </div>  
+                    <div class="modal fade" tabindex="-1" id="reviewmodal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">Review Student</h3>                    
+
+                                    <!--begin::Close-->
+                                    <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
+                                        <span class="svg-icon svg-icon-1">X</span>
+                                    </div>
+                                    <!--end::Close-->
+                                </div>                    
+                                 <form>
+                                <div class="modal-body">
+                                  
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-6"><label for=""   class=" form-label mt-5 fw-bold" >Communication</label></div>
+                                                     <div class="col-md-6">
+                                                        
+                                                        
+                                                     <div class="rating">
+    <!--begin::Reset rating-->
+    <label class="btn btn-light fw-bold btn-sm rating-label me-3" for="kt_rating_input_0">
+        Reset
+    </label>
+    <input class="rating-input" name="rating" value="0" checked type="radio" id="kt_rating_input_0"/>
+    <!--end::Reset rating-->
+
+    <!--begin::Star 1-->
+    <label class="rating-label" for="kt_rating_input_1">
+        <span class="svg-icon svg-icon-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+  <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+</svg></span>
+    </label>
+    <input class="rating-input" name="rating" value="1" type="radio" id="kt_rating_input_1"/>
+    <!--end::Star 1-->
+
+    <!--begin::Star 2-->
+    <label class="rating-label" for="kt_rating_input_2">
+        <span class="svg-icon svg-icon-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+  <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+</svg></span>
+    </label>
+    <input class="rating-input" name="rating" value="2" type="radio" id="kt_rating_input_2"/>
+    <!--end::Star 2-->
+
+    <!--begin::Star 3-->
+    <label class="rating-label" for="kt_rating_input_3">
+        <span class="svg-icon svg-icon-1"><svg>....</svg></span>
+    </label>
+    <input class="rating-input" name="rating" value="3" type="radio" id="kt_rating_input_3"/>
+    <!--end::Star 3-->
+
+    <!--begin::Star 4-->
+    <label class="rating-label" for="kt_rating_input_4">
+        <span class="svg-icon svg-icon-1"><svg>....</svg></span>
+    </label>
+    <input class="rating-input" name="rating" value="4" type="radio" id="kt_rating_input_4"/>
+    <!--end::Star 4-->
+
+    <!--begin::Star 5-->
+    <label class="rating-label" for="kt_rating_input_5">
+        <span class="svg-icon svg-icon-1"><svg>....</svg></span>
+    </label>
+    <input class="rating-input" name="rating" value="5" type="radio" id="kt_rating_input_5"/>
+    <!--end::Star 5-->
+</div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-6"><label for=""   class=" form-label mt-5 fw-bold" >Commitment</label></div>
+                                                     <div class="col-md-6">
+                                                        
+                                                        
+                                                        
+                                                        <div class="star-rating">
+                                                            <div class="star-input">
+                                                                <input type="radio" name="rating" id="rating-5">
+                                                                 <label for="rating-5" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-4">
+                                                                 <label for="rating-4" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-3">
+                                                                 <label for="rating-3" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-2">
+                                                                 <label for="rating-2" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-1">
+                                                                 <label for="rating-1" class="fas fa-star"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-6"><label for=""   class=" form-label mt-5 fw-bold" >Correctnees</label></div>
+                                                     <div class="col-md-6">
+                                                        
+                                                        
+                                                        
+                                                        <div class="star-rating">
+                                                            <div class="star-input">
+                                                                <input type="radio" name="rating" id="rating-5">
+                                                                 <label for="rating-5" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-4">
+                                                                 <label for="rating-4" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-3">
+                                                                 <label for="rating-3" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-2">
+                                                                 <label for="rating-2" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-1">
+                                                                 <label for="rating-1" class="fas fa-star"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="col-md-6"><label for=""   class=" form-label mt-5 fw-bold" >Ethics</label></div>
+                                                     <div class="col-md-6">
+                                                        
+                                                        
+                                                        
+                                                        <div class="star-rating">
+                                                            <div class="star-input">
+                                                                <input type="radio" name="rating" id="rating-5">
+                                                                 <label for="rating-5" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-4">
+                                                                 <label for="rating-4" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-3">
+                                                                 <label for="rating-3" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-2">
+                                                                 <label for="rating-2" class="fas fa-star"></label>
+                                                                 <input type="radio" name="rating" id="rating-1">
+                                                                 <label for="rating-1" class="fas fa-star"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                       <label for="commentreviwe" class="form-label"></label>
+                                                       <textarea class="form-control" id="commentreviwe" rows="2"   data-kt-autosize="true" placeholder= "Comment"></textarea>
+                                                     </div>
+    
+     
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                </div>                    
+                               
+                                <div class="modal-footer">
+                                    
+                                    <button type="submit" class="btn btn-primary">Reviwe</button>
+                                </div>
+                              <form>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                        reviewmodal
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-
-             </div>
-         </div>
-
+                    </div>  
+         </div> 
 
     </div>
-<script type="text/javascript" src="assets/js/tables.js"></script>
+
 </div>
+
+<script>
+
+</script>
+                       
+</body>
+</html>                  
+                      
+                        
+
+
          
  
 
@@ -125,3 +366,6 @@
 
 
 					
+  
+</body>
+</html>

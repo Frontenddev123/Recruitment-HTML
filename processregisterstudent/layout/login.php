@@ -5,14 +5,14 @@
    
   
     <div class="col-md-6 mb-4">
-    <label for="Email" class="mb-4"> Email</label>
-      <input type="text" class="form-control" id="first-name"  name="email" required>
+    <label for="Email" class=" form-label mb-4"> Email</label>
+      <input type="email" class="form-control" id="first-name"  name="email" required>
       
     </div>
 
     <div class="col-md-6 mb-4">
-    <label for="Password" class="mb-4"> Password</label>
-      <input type="text" class="form-control" id="first-name"  name="password" required>
+    <label for="Password" class=" form-label mb-4"> Password</label>
+      <input type="password" class="form-control" id="first-name"  name="password" required>
       
     </div>
    
@@ -46,4 +46,5 @@
     </form>
   </div>
 </div>
+
 <br><br><br>

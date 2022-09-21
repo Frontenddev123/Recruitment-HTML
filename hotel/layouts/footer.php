@@ -10,7 +10,7 @@
  
     </div>
     <!--end::Container-->
-
+	
 </div>
 <!--end::Footer-->
 </div>
@@ -44,7 +44,10 @@
 		<script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<script src="assets/plugins/custom/
+		
+		
+		/datatables.bundle.js"></script>
 		<!--end::Vendors Javascript-->
 		<!--begin::Custom Javascript(used by this page)-->
 		<script src="assets/js/widgets.bundle.js"></script>

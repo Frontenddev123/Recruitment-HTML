@@ -14,7 +14,7 @@
 					<div class="card-header pt-7">
 						<!--begin::Title-->
 						<h3 class="card-title align-items-start flex-column">
-							<span class="card-label fw-bold text-gray-800">Students in  intership Process</span>
+							<span class="card-label fw-bold text-gray-800">New applications</span>
 							
 						</h3>
 						<!--end::Title-->
@@ -50,45 +50,36 @@
                            <table class="table table-striped gy-7 gs-7"  id="myTable">
                             <thead>
                              <tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
-                                 <th>Hotel Name</th>
-                                 <th>First Name</th>
-                                 <th>Last Name</th>
-                                 <th>Job Position</th>
-                                 <th>State</th>
-                                 <th>Student Code</th>
-                                 <th>% of the Process</th>              
-						
+                              <th>Hotel Name</th>
+                              <th>Application Date</th>
+                              <th>Availability</th>
+							  <th>Job Position </th>
+							  <th>City </th>
+							
 
                              </tr>
                             </thead>
-                            <tbody>
+                            <tbody>  
                              <tr>
-                              <td>Blu Hotel</td>
-                              <td>Aida</td>
-                              <td>Caushi</td>
-                              <td>Waiter</td>
-                              <td><img src="assets/media/icons/flag-Al.png" alt="Flag"></td>            
-                              <td>101</td>
-                              <td>30%</td>
-                   
-                              <td>  <a href="http://localhost/panel/profilestudent.php"> <i class="bi bi-person fs-2x"></i></a>
-                               </td>	
-                               </tr>			           
-                     
+                              <td>Aida Caushi</td>
+                              <td>6/6/2022</td>
+                              <td>6/6/2022</td>
+							  <td>Waiter</td>
+							  <td>Napoli</td>
+                              <td>  <i class="bi bi-person fs-2x"></i></td>
+                        
+                             </tr>
+						  
                             </tbody>
                         </table>
 	 
                     </div>           
                 </div>
 
-              
-                           
-        </div>
+           </div>
 
        </div>
      </div>
-
-
   </div>
   <script type="text/javascript" src="assets/js/tables.js"></script>
 </div>
