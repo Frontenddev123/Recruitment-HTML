@@ -192,15 +192,18 @@
 
                     <div class="modal-footer">
              
-                          <button type="submit" class="btn btn-primary">Register</button>
-                   </div>
-                   </form>         
+                          <button type="submit" class="btn btn-primary"  data-bs-toggle="modal" >Register</button>
+
+            </div>
+                           
        		    </div>
-                   
-               </div>     
+
+            </form>   
+              
+        </div>     
                
-           </div>
-       </div>
+    </div>
+</div>
 
 
 
