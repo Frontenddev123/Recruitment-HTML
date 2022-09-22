@@ -60,8 +60,8 @@
                 </div>
               
                 <div class="row mt-3">
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="First name" name= "firstName" required></div>
-                    <div class="col-md-12 mb-5"><input type="text" class="form-control" placeholder="Last name" name= "lastName" required></div>
+                    <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="First name" name= "firstName" required></div>
+                    <div class="col-md-6 mb-5"><input type="text" class="form-control" placeholder="Last name" name= "lastName" required></div>
                     <div class="col-md-12 mb-5"><input type="date" class="form-control" placeholder="birthday"  name= "birthday" value="" required></div>
                     <div class="col-md-12 mb-5"><input type="email" class="form-control" placeholder="Email" name= "email" required></div>
                     <div class="col-md-12 mb-5"><input type="tel" class="form-control" placeholder="Phone Number"  name= "phoneNumber " value="" required></div>
